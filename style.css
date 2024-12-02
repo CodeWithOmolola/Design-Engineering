@@ -1,0 +1,643 @@
+/*PAGE STANDARD */
+html{
+    font-family: "Sintony", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    cursor: cell;
+}
+
+table, th, td {
+    border-collapse: collapse; 
+}
+
+/*HEADER */
+.header-table{
+    width: 100%;
+    text-align: center;
+    font-size: 2.25rem;
+    font-family: "Sintony", sans-serif;
+    font-weight: 600;
+}
+
+.header-table td{
+    padding: 8px;
+    font-family: "Unica One", sans-serif;
+    letter-spacing: 0.15em;
+}
+
+.navigation{
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+}
+
+.navigation-tab{ 
+    height: 4em;
+    width: 100%;
+}
+
+.navigation-tab a{ 
+    text-decoration: none;
+    color: black;
+    font-family: "Sintony", sans-serif;
+    font-weight: 600;
+    padding: 5px 25px;
+    letter-spacing: 0.10em;
+}
+
+.navigation a:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.05);
+    padding: 5px 25px;
+  }
+  
+  .navigation a.active {
+    background-color: #FBC1C0;
+    color: black;
+    padding: 5px 25px;
+  }
+
+#home, #projects, #connect {
+    width: 25%;
+    font-size: 18px;
+    text-align: inherit;
+}
+
+#home{
+    text-align: left;
+}
+
+#projects{
+    text-align: center;
+}
+
+#connect{
+    text-align: right;
+}
+
+ /*PHILOSOPHY SECTION */
+.row{
+    display: flex;
+    margin: auto;
+}
+
+.philosophy {
+    background-color: black;
+    color: white;
+    padding: 1.5em 0;
+}
+
+.content-container {
+    max-width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.profile {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+}
+
+.profile img {
+    width: 30%;
+    border-radius: 5px;
+}
+
+.text-content h5 {
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-bottom: 0.3em;
+}
+
+.text-content .name {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.text-content .tagline {
+    font-size: 0.8rem;
+    line-height: 1.4;
+    margin-top: 0.3em;
+}
+
+.intro p {
+    font-size: 0.875rem;
+    line-height: 1.6;
+    text-align: justify;
+    text-indent: 2em;
+    margin-top: -0.5em;
+}
+
+.intro a {
+    text-decoration: underline;
+    color: #e1514e;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
+
+.intro a:hover {
+    background-color: black;
+    color: white;
+    padding: 0 0.25em;
+}
+
+/*LATEST SECTION */
+.latest {
+    margin: auto;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.latest-table {
+    width: 85%;
+    margin: auto;
+}
+
+#lat-head {
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 0.08em;
+    text-decoration: none;
+    color: white;
+}
+
+#lat-body {
+    padding: 8px;
+}
+
+#lat-body img {
+    border: 1px solid black;
+}
+
+#project-date {
+    font-family: "Sintony", sans-serif;
+    font-weight: 700;
+    font-size: 0.75rem;
+    padding-left: 10px;
+}
+
+.type-two {
+    font-size: 0.625rem;
+    width: 20%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 4px 8px;
+    font-family: "Sintony", sans-serif;
+    margin: -3em 1em 0 auto;
+}
+
+#project-intro {
+    font-size: 0.8rem;
+    text-align: justify;
+    hyphens: auto;
+    text-indent: 2em;
+    margin: 8px;
+    line-height: 1.5;
+    padding: 0 15px;
+}
+
+#more-link {
+    color: #e1514e;
+    font-weight: 600;
+}
+
+#more-link:hover {
+    background-color: black;
+    color: white;
+    padding: 2px 5px;
+}
+
+/* Project Sections */
+.intro-space p {
+    font-family: "Sintony", sans-serif;
+    font-size: 0.8rem;
+    text-align: justify;
+    hyphens: auto;
+    text-indent: 2em;
+    padding: 8px;
+    line-height: 1.5;
+}
+
+.settings h5 {
+    font-size: 0.875rem;
+    margin-top: 2em;
+    font-family: "Sintony", sans-serif;
+    font-weight: 700;
+}
+
+.settings h3 {
+    font-size: 1.125rem;
+    margin-top: -0.5em;    
+    font-family: "Sintony", sans-serif;
+    font-weight: 700;
+}
+
+.settings p {
+    margin-top: -0.5em;
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    font-style: italic;
+}
+
+#type-one {
+    font-size: 0.5rem;
+    width: 35%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 1.5em;
+    padding: 4px 8px;
+    font-family: "Sintony", sans-serif;
+    font-weight: 700;
+    margin: 1em 0;
+    font-style: normal;
+}
+
+#type-two {
+    font-size: 0.7rem;
+    width: 85%;
+    color: black;
+    text-align: left;
+    padding: 4px 8px;
+    font-family: "Sintony", sans-serif;
+    font-weight: 500;
+    hyphens: auto;
+    line-height: 1.4;
+    font-style: normal;
+}
+
+button {
+    width: 35%;
+    background-color: black;
+    color: white;
+    font-family: "Sintony", sans-serif;
+    font-weight: 600;
+    padding: 4px 8px;
+    border: none;
+    margin-bottom: 0.5em;
+}
+
+button:hover {
+    background-color: #e1514e;
+}
+
+footer {
+    text-align: center;
+    padding: 8px;
+    background-color: #fff;
+    color: black;
+    margin-top: 0.5em;
+    font-family: "Sintony", sans-serif;
+    font-weight: 700;
+    font-size: 0.875rem;
+}
+
+/* Color and Styling Refinements */
+.colors-wraps {
+    width: 100%;
+    display: flex; 
+    justify-content: center;
+}
+
+#colors {
+    width: 25%;
+    margin-top: -1.5em;
+}
+
+.hope {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#colors-cap {
+    width: 75%;
+    font-size: 0.75rem;
+    text-align: center;
+    margin-top: -0.25em;
+}
+
+#type-one p {
+    font-size: 0.5rem;
+    width: 35%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 1.5em;
+    padding: 4px 8px;
+    font-family: "Sintony", sans-serif;
+    font-weight: 700;
+    margin: 1em 0;
+    font-style: normal;
+}
+
+.contact-form-container {
+    padding: 20px 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Sintony", sans-serif;
+    font-weight: 600;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-family: "Sintony", sans-serif;
+    font-weight: 600;
+}
+
+.form-row {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+textarea {
+    resize: none;
+}
+
+button.submit-button {
+    background-color: #000;
+    border: 1px solid #ccc;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button.submit-button:hover {
+    background-color: #e1514e;
+    border: none;
+    color: black;
+}
+
+.skills-container{
+    padding: 5px 30px;
+    font-size: 10px;
+    margin-bottom: 1em
+}
+
+.container {
+  width: 100%; /* Full width */
+  background-color: white; /* Grey background */
+  border: 1px solid black;
+  border-radius: 5em;
+}
+
+#heads{
+    font-family: "Sintony", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 12px;
+}
+
+#bases{
+    font-size: 10px;
+    margin-top: -1em;
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding: 5px;
+  color: black; /* White text color */
+  font-family: "Sintony", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  border-right: 0.05em solid #333333;
+  border-radius: 5em;
+  font-size: 12px;
+}
+
+.adobe {width: 80%; background-color:  #ee8a8a;} /* Green */
+.animation {width: 75%; background-color: #ee8a8a;} /* Blue */
+.type {width: 90%; background-color: #ee8a8a;} /* Red */
+.data {width: 75%; background-color: #ee8a8a;} /* Dark Grey */
+.web {width: 85%; background-color: #ee8a8a;} /* Green */
+.hands {width: 80%; background-color: #ee8a8a;} /* Green */
+.collab {width: 90%; background-color: #ee8a8a;} /* Green */
+  
+
+/* Parent container styling */
+.bops {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100%; /* Adjust as needed */
+}
+
+/* Link styling */
+.link {
+    width: 25%;
+    text-decoration: none;
+}
+
+/* Button styling */
+.tvs {
+    width: 100%;
+    padding: 10px; /* Adds more clickable area */
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 16px; /* Adjust for readability */
+    font-weight: bold; /* Optional: Adds emphasis */
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+}
+
+/* Button hover effect */
+.tvs:hover {
+    background-color: #ee8a8a;
+    color: white;
+    border-color: black;
+}
+
+@media (max-width: 768px) {
+    /* Typography and Layout Adjustments */
+    html {
+        font-size: 14px; /* Slightly smaller base font size */
+    }
+
+    /* Header Adjustments */
+    .header-table {
+        width: 100%;
+    }
+
+    .header-table td {
+        font-size: 1.5rem;
+        padding: 5px;
+    }
+
+    /* Navigation Improvements */
+    .navigation {
+        flex-direction: column;
+        width: 100%;
+        gap: 0.5em;
+        align-items: stretch;
+    }
+
+    .navigation-tab {
+        width: 100%;
+        text-align: center;
+    }
+
+    .navigation-tab a {
+        display: block;
+        padding: 10px;
+        width: 100%;
+    }
+
+    /* Responsive Profile Section */
+    .profile {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile img {
+        width: 60%;
+        max-width: 250px;
+        margin: 0 auto;
+    }
+
+    .text-content {
+        text-align: center;
+    }
+
+    .text-content h5 {
+        font-size: 0.8rem;
+    }
+
+    .text-content .name {
+        font-size: 1rem;
+    }
+
+    /* Content Containers */
+    .content-container {
+        max-width: 95%;
+        padding: 0 10px;
+    }
+
+    .intro p {
+        font-size: 0.8rem;
+        text-indent: 1em;
+    }
+
+    /* Latest Section */
+    .latest {
+        width: 100%;
+        margin-top: 1em;
+    }
+
+    .latest-table {
+        width: 100%;
+    }
+
+    #project-intro {
+        font-size: 0.75rem;
+        padding: 0 10px;
+    }
+
+    /* Skills Section */
+    .skills-container {
+        padding: 5px;
+        margin-bottom: 0.5em;
+    }
+
+    .skills {
+        font-size: 10px;
+    }
+
+    /* Form Adjustments */
+    .contact-form-container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .form-row {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .form-group {
+        width: 100%;
+    }
+
+    /* Buttons and Links */
+    .bops {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .link, .tvs {
+        width: 90%;
+        max-width: 300px;
+    }
+
+    /* Color Sections */
+    .colors-wraps, .hope {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #colors {
+        width: 90%;
+        margin-top: 0;
+    }
+
+    #colors-cap {
+        width: 100%;
+        font-size: 0.7rem;
+        text-align: center;
+    }
+
+    /* General Mobile Responsiveness */
+    .row {
+        flex-direction: column;
+        width: 100%;
+        gap: 1em;
+    }
+
+    /* Ensure images and media are responsive */
+    img, video, iframe {
+        max-width: 100%;
+        height: auto;
+    }
+}
